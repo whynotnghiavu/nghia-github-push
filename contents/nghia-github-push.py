@@ -19,6 +19,7 @@ def shutdown_computer():
         print("Không thể tắt máy tự động trên hệ điều hành này.")
 
 
+# Lặp qua từng tệp workspace và thực hiện git push
 for i in workspace:
     print(f"🚀 \033[32m{i}\033[0m")
 
